@@ -10,19 +10,19 @@ const Statistics = ({
 }) => {
   return (
     <ul className={css.statlist}>
-      <li className="good-value">
+      <li>
         Good: <span>{good}</span>
       </li>
-      <li className="neutral-value">
+      <li>
         Neutral: <span>{neutral}</span>
       </li>
-      <li className="bad-value">
+      <li>
         Bad: <span>{bad}</span>
       </li>
-      <li className="total-value">
+      <li>
         Total: <span>{total}</span>
       </li>
-      <li className="percentage-value">
+      <li>
         Positive Feedback:
         <span>{onCountPositiveFeedbackPercentage() || '0'}%</span>
       </li>
