@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Statistics from './Statistics/Statistics';
-import Feedback from './Feedback/Feedback';
-import Section from './Section/Section';
-import Notification from './Notification/Notification';
+import { Statistics } from './Statistics/Statistics';
+import { Feedback } from './Feedback/Feedback';
+import { Section } from './Section/Section';
+import { Notification } from './Notification/Notification';
 import css from './Container/Container.module.css';
 
 export class App extends Component {
