@@ -1,0 +1,22 @@
+.btnlist {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btnlist button {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  color: indianred;
+  border: 2px solid #43456d;
+  box-shadow: 2px 4px 2px 2px #43456d;
+  text-shadow: 1px 1px 1px #43456d;
+}
+.btnlist button:hover {
+  color: #43456d;
+  border: 2px solid indianred;
+  box-shadow: 2px 4px 2px 2px indianred;
+  text-shadow: 1px 1px 1px #43456d;
+}

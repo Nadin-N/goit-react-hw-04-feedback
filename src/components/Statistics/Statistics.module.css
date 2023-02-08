@@ -1,0 +1,12 @@
+.statlist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 24px;
+}
+
+span {
+  font-weight: 700;
+  color: indianred;
+  text-shadow: 1px 1px 1px #43456d;
+}
